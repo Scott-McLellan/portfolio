@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: "Protest Strike", sans-serif;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: "Protest Strike", sans-serif;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    text-align: center;
+    display: inline;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+nav{
+    height: 60px;
+    background-color: grey;
+    margin-bottom: 50px;
+    border: 5px solid black;
+}
+
+#nav1{
+    height: 60px;
+    background-color: grey;
+    margin-bottom: 50px;
+    border: 5px solid black;
+}
+
+#nav2{
+    height: 60px;
+    background-color: grey;
+    margin-bottom: 50px;
+    border: 5px solid black;
+    position: fixed;
+}
+
+figure {
+    padding: 20px;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    border: 3px solid black;
+    max-width: 90%;
+    border-radius: 10px;
+}
+
+figcaption {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+p:first-letter{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 700;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Qwitcher Grypen", cursive;
+    text-align: center
+}
+
+/* Footer for Contact Page */
+
+#footer1 {
+    height: 60px;
+    background-color: grey;
+    margin-bottom: 50px;
+    border: 5px solid black;
+    padding: 18px;
+}
+
+.footer {
+    height: 60px;
+    background-color: grey;
+    margin-bottom: 50px;
+    border: 5px solid black;
+    padding: 18px;
+    color: yellowgreen;
+}
+
+label {
+    font-family: "Protest Strike", sans-serif;
+    font-size: larger;
+}
+
+textarea {
+    border-width: 3px;
+    border-color: black;
+    background-color: azure;
+    cursor: crosshair;
+}
+
+
+.main-container {
+    background-color: none;
+    margin: auto;
+    overflow: auto;
+    width: 960px;
+    height: auto;
+    border: 3px solid black;
+}
+
+.bg-grey {
+    background-color: white;
+    border-color: black;
+}
+
+.first-picture {
+    float: left;
+    margin: 10px;
+    width: auto;
+    padding: auto;
+    height: auto;
+    background-color: white;
+    border: 3px solid black;
+}
+
+#pdiv{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+@media only screen and (max-width: 768px){
+    .main-container{
+        width: 768px;
+    }
+}
+
+
+.submit {
+    color: black;
+    background-color: azure;
+}
+
+#email-input {
+    border-color: black;
+    background-color: azure;
+}
+
+#full-name {
+    border-color: black;
+    background-color: azure;
+}
+
+.submit:hover {
+    color: darkcyan;
+}
+
+
+
+a:link,
+a:visited,
+a:focus {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkcyan;
+}
+
+.protest-strike-regular {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.qwitcher-grypen-regular {
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.qwitcher-grypen-bold {
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+  

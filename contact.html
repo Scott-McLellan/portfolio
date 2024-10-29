@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale">
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Contact Page</title>
+</head>
+
+<body>
+    <h1>Contact Form</h1>
+    <h2>Write Your Contact Info Below</h2>
+    <nav id="nav1">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <form id="contact-form" action="https://postman-echo.com/post" method="post">
+        <div>
+            <label for="full-name">Name</label><br>
+            <input id="full-name" type="text" name="full-name" required autofocus>
+        </div>
+        <br>
+        <div>
+            <label for="email-input">Email Address</label><br>
+            <input id="email-input" type="email" name="email" required>
+        </div>
+        <br>
+        <div>
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" placeholder="Write your message here"></textarea>
+        </div>
+        <br>
+        <div>
+            <br><input class="submit" type="button" value="Submit">
+        </div>
+    </form>
+
+    <br>
+    <div>
+        <footer id="footer1">
+            <img src="images/youtube-brands-solid.svg" width="24" title="Youtube" alt="Youtube">
+            <img src="images/instagram-brands-solid.svg" width="24" title="Instagram" alt="Instagram">
+            <img src="images/github-brands-solid.svg" width="24" title="GitHub" alt="GitHub">
+        </footer>
+    </div>
+</body>
+</html>
